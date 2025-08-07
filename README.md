@@ -1,4 +1,3 @@
-Here's a **professional and visually appealing `README.md`** that showcases your MLOps project for recruiters and visitors. This highlights your technical proficiency, tools used, cloud integrations, CI/CD setup, and project features in a structured, impressive way.
 
 ---
 
@@ -35,9 +34,9 @@ This project showcases my ability to build production-grade ML pipelines using P
 │   ├── aws_storage/           # AWS S3 operations
 │   └── constants/             # Global constants (paths, thresholds, keys)
 │
-├── templates/                 # HTML templates for Flask app
+├── templates/                 # HTML templates for FastAPI app
 ├── static/                    # CSS/JS assets for frontend
-├── app.py                     # Main Flask app
+├── app.py                     # Main FastAPI app
 ├── setup.py                   # Python project setup
 ├── pyproject.toml             # Python build system config
 ├── requirements.txt           # Required packages
@@ -169,17 +168,5 @@ export MONGODB_URL="your-mongodb-url"
 
 * Training pipeline integrated in `/train` route
 * Model retrains and updates S3 model registry if performance improves
-
----
-
-## ✅ Highlights
-
-✅ Modular codebase with separation of concerns
-✅ Full pipeline from **data ingestion to model deployment**
-✅ Real-time model versioning with AWS S3
-✅ **GitHub Actions CI/CD** with **EC2 self-hosted runner**
-✅ **MongoDB** as NoSQL backend for raw data
-✅ Fully containerized with **Docker + ECR**
-✅ Streamlined for **retraining, evaluation, and rollback**
 
 ---
