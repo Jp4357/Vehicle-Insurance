@@ -8,7 +8,7 @@ __pycache__/
 
 # .txt
 # *.txt
-# flow.txt
+flow.txt
 
 # Distribution / packaging
 .Python
